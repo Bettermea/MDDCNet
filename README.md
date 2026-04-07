@@ -1,7 +1,7 @@
 # Environment
-conda create -n MDDCNet python=3.10
-conda activate MDDCNet
-pip install torch==2.1.1 torchvision torchaudio
+conda create -n MDDCNet python=3.10 \
+conda activate MDDCNet \
+pip install torch==2.1.1 torchvision torchaudio 
 
 # Prepare Dataset
 
