@@ -5,7 +5,7 @@ pip install torch==2.1.1 torchvision torchaudio
 
 # Prepare Dataset
 
-
+<pre>
 ├── Dataset
     ├── images
     │   ├── train
@@ -17,10 +17,12 @@ pip install torch==2.1.1 torchvision torchaudio
         │   └── 00001.txt
         ├── val
         └── test
+</pre>
 
 
 # Training
 
 python train.py --task train --data /ultralytics/cfg/datasets/KITTI.yaml \
 --config  /ultralytics/cfg/models/mamba-yolo/MDDCNet-T.yaml  \
---amp  --project ./output_dir --name DDCMNet-T
+--amp  --project ./output_dir --name TrainResult
+
