@@ -5,18 +5,18 @@ pip install torch==2.1.1 torchvision torchaudio
 
 # Prepare Dataset
 
-├──Dataset
-    ├── images
-        ├── train
-            ├── 00001.png
-        ├── val
-        ├── test
-    ├── labels
-        ├── train
-            ├── 00001.txt
-        ├── val
-        ├── test
 
+├── Dataset
+    ├── images
+    │   ├── train
+    │   │   └── 00001.png
+    │   ├── val
+    │   └── test
+    └── labels
+        ├── train
+        │   └── 00001.txt
+        ├── val
+        └── test
 
 
 # Training
